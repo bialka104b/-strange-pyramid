@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2018 by bialka104b (http://jsbin.com/wuqinoy/6/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+<meta name="description" content="dziwna piramida">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>cwiczenia stwierdzen warunkowych</title>
+</head>
+<body>
+  <canvas id="myCanvas" height="300" width="400" style="border: 1px solid black"></canvas>
+<script id="jsbin-javascript">
+var canvas = document.getElementById('myCanvas');
+var context = canvas.getContext('2d');
+var canvasWidth=canvas.width
+
+var n=1;
+var x=200;
+var y=0;
+var x1=3;
+var y1=150;
+context.strokeStyle = 'black';
+for (n=1;n<=134;n++){
+if (x1%2==0) {
+context.beginPath();
+context.moveTo(x1,y1);
+context.lineTo(x,y);
+context.stroke();
+  x1=x1+5;
+  n++;
+}
+  x1++;
+}
+var n=1;
+var x=200;
+var y=300;
+var x1=1;
+var y1=150;
+context.strokeStyle = 'red';
+for (n=1;n<=134;n++){
+if ((x1%2)!=0) {
+context.beginPath();
+context.moveTo(x1,y1);
+context.lineTo(x,y);
+context.stroke();
+  x1=x1+5;
+  n++;
+}
+  x1++;
+}
+
+
+</script>
+</body>
+</html>
