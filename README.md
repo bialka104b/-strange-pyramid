@@ -1,1 +1,0 @@
-# dziwna_piramida
