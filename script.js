@@ -1,6 +1,6 @@
     var canvas = document.getElementById('myCanvas');
     var context = canvas.getContext('2d');
-    var canvasWidth=canvas.width;
+    var canvasWidth=canvas.width
     var n=1;
     var n,k,i,y,x1;
     for (n=1;n<200;n++) {
