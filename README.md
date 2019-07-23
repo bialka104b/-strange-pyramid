@@ -1,3 +1,3 @@
 # strange pyramid
 
-Preview: https://bialka104b.github.io/strange-pyramid/
+Preview: https://bialka104b.github.io/strange-pyramid-in-egg/
