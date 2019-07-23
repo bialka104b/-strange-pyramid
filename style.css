@@ -1,0 +1,29 @@
+body {
+    background:#acf49f;
+    height:100vh;
+    width:100%;
+    margin:0;
+}
+#myCanvas {
+    margin-left:0;
+    margin-right:0;
+    margin-top: 25vh;
+    text-align: center;
+    animation: anim 3s linear 0.75s infinite alternate none;
+    border-radius: 50%;
+    
+}
+@keyframes anim {
+0% { margin-left: 5%; background: dodgerblue;}
+25% { margin-left: 15%;margin-right:0; background: crimson; transform:rotate(25deg)}
+50% { margin-left: 25%;margin-right:0; background: darkorange; transform:rotate(50deg)}
+75% { margin-left: 35%;margin-right:0; background: limegreen; transform:rotate(75deg)}
+100% { margin-left: 45%;margin-right:0; background: darkgreen; transform:rotate(100deg)}
+125% {margin-left: 55%;margin-right:0; background: limegreen; transform:rotate(125deg)}
+150% {margin-left: 65%;margin-right:0; background: darkorange; transform:rotate(150deg)}
+175% {margin-left: 75%;margin-top:15vh; background: crimson; transform:rotate(175deg)}
+200% {margin-left: 85%;margin-top:5vh; background: violet; transform:rotate(200deg)}
+175% {margin-left: 75%;margin-top:0; background: crimson; transform:rotate(175deg)}
+150% {margin-left: 65%;margin-top:0; background: darkorange; transform:rotate(150deg)}
+125% {margin-left: 55%;margin-top:0; background: limegreen; transform:rotate(125deg)}
+}

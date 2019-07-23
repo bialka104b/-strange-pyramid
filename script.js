@@ -9,7 +9,7 @@
       x=200;
       y1=150;
       for (k=0;k<200&&x1<400;k++) {
-        context.strokeStyle = 'red';  
+        context.strokeStyle = '#ffff00';  
         if(k%2===0){
           context.beginPath();
           context.moveTo(x1,y1);
