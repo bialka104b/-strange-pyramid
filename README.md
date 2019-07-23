@@ -1,1 +1,1 @@
-# dziwna_piramida
+# strange pyramid
